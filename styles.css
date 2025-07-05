@@ -39,16 +39,23 @@ body {
 
 .container form{
     padding: 25px 35px;
-
-.container .main {
-    background-color: #fff;
-    padding-left: 20px;
 }
 
-.main2 span {
-    /* width: 100%; */
-    font-size: 20px;
-    padding: 14px 14px 8px;
+.container form .row {
+    height: 60px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.container form .row input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 70px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 188, 188);
+    font-size: 18px;
+    transition: all 0.3s ease;
 }
 
 main span i {
