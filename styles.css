@@ -63,5 +63,35 @@ form .row input:focus {
 }
 
 form .row input::placeholder {
-    
+    color: #838282;
 }
+
+.container form .row i {
+    position: absolute;
+    width: 55px;
+    height: 100%;
+    color: #fff;
+    background: #385e5a;
+    font-size: 24px;
+    font-weight: 500;
+    /* padding-left: 0px; */
+    border: 1px solid rgb(192, 188, 188);
+    cursor: pointer;
+}
+
+form .button_row input:hover {
+    background: #385e5a;
+}
+
+.container form .signup {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 17px;
+}
+
+.container form .signup a {
+    color: #385e5a;
+    text-decoration: none;
+    font-weight: 500;
+}
+
