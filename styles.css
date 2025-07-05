@@ -58,19 +58,10 @@ body {
     transition: all 0.3s ease;
 }
 
-main span i {
-    font-size: 24px;
-    background-color: #385e5a;
-    color: #fff;
-    align-items: center;
-    padding: 14px;
-    border-radius: 6px 0 0 6px;
+form .row input:focus {
+    border-color: #385e5a;
 }
 
-.main input {
-    font-size: 20px;
-    border: 1px 1px 1px 0px solid rgb(122, 115, 115);
-    padding: 12px 12px 8px;
-    margin-left: -6px;
-    /* margin-top: 60px; */
+form .row input::placeholder {
+    
 }
