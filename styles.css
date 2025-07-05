@@ -52,7 +52,7 @@ body {
     width: 100%;
     outline: none;
     padding-left: 70px;
-    border-radius: 5px;
+    border-radius: 6px;
     border: 1px solid rgb(192, 188, 188);
     font-size: 18px;
     transition: all 0.3s ease;
@@ -76,7 +76,7 @@ form .row input::placeholder {
     font-weight: 500;
     /* padding-left: 0px; */
     border: 1px solid rgb(192, 188, 188);
-    border-radius: 5px 0 0 5px;
+    border-radius: 6px 0 0 6px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,14 +87,32 @@ form .row input::placeholder {
     margin-top: 12px;
 }
 
-form .button_row input:hover {
-    background: #385e5a;
+.container form .password a {
+    color: #385e5a;
+    font-size: 16px;
+    text-decoration: none;
 }
 
-.container form .signup {
-    text-align: center;
-    margin-top: 45px;
-    font-size: 17px;
+.container form .password a:hover {
+    text-decoration: underline;
+}
+
+.container form .button_row input {
+    margin-top: 20px;
+    color: #fff;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #385e5a;
+    border: 1px solid #838282;
+    cursor: pointer;
+}
+
+form .button_row input:hover {
+    background: #5c9a94;
 }
 
 .container form .signup {
