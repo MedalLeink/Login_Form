@@ -89,6 +89,12 @@ form .button_row input:hover {
     font-size: 17px;
 }
 
+.container form .signup {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 17px;
+}
+
 .container form .signup a {
     color: #385e5a;
     text-decoration: none;
