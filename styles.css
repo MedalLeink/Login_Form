@@ -9,6 +9,12 @@
 
 body {
     background-color: #80dbd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+    overflow: hidden;
 }
 
 .container {
@@ -47,8 +53,9 @@ body {
 }
 
 .main2 span {
-    padding: 0;
-    margin: 0;
+    /* width: 100%; */
+    font-size: 20px;
+    padding: 14px 14px 8px;
 }
 
 main span i {
@@ -62,7 +69,7 @@ main span i {
 
 .main input {
     font-size: 20px;
-    border: 1px solid rgb(122, 115, 115);
+    border: 1px 1px 1px 0px solid rgb(122, 115, 115);
     padding: 12px 12px 8px;
     margin-left: -6px;
     /* margin-top: 60px; */
