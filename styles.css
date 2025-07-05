@@ -21,6 +21,10 @@ body {
     margin: 0 auto;
 }
 
+/* .container .main_form {
+    background-color: #fff;
+} */
+
 .container .header h1{
     color: #fff;
     padding: 30px 160px 30px 160px;
